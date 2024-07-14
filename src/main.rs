@@ -1,28 +1,29 @@
 fn main() {
 
 
-    // ExerciseA Variables
+    // Exercise A Variables
     let missiles = 8;
     let ready = 2;
     println!("Firing{} of my {} missiles...", ready, missiles);
-
-
     let width =4;
     let length = 5;
     let depth =6;
 
-    // ExerciseB Functions
+    // Exercise B  Functions
     println!("{}", area(width, length, depth));
 
-
-
-    // ExerciseC types
+    // Exercise C types
     let coordinates = (4.0, 5.0, 6.0);
     let coordArray = [coordinates.0, coordinates.1, coordinates.2];
-
     println!("{:?}", coordArray);
 
-
+    // Exercise D types
+    for num in coordArray.iter(){
+        println!("{}", num);
+    }
+    for num in 0..50{
+        println!("{}", num);
+    }
 
 
 }
