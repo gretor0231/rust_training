@@ -13,6 +13,18 @@ fn main() {
 
     // ExerciseB Functions
     println!("{}", area(width, length, depth));
+
+
+
+    // ExerciseC types
+    let coordinates = (4.0, 5.0, 6.0);
+    let coordArray = [coordinates.0, coordinates.1, coordinates.2];
+
+    println!("{:?}", coordArray);
+
+
+
+
 }
 
 
